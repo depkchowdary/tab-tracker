@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Hello world!</h1>
-    <a href="/register">Register</a>
+    <router-link to="register" tag="a">Register</router-link>
   </div>
 </template>
 <script>

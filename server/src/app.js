@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
   res.send(`Hello world!`)
 })
 
-
 app.post('/register', (req, res) => {
   res.send(`${req.body.email} is successfully registered with us. Have fun!`)
 })
